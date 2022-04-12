@@ -1,3 +1,3 @@
 # Java MJV
 
-segunda aula curso
+segunda aula curso, git e github
