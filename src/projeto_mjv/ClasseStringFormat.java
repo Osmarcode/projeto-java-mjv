@@ -1,0 +1,32 @@
+package projeto_mjv;
+
+/**
+ * 
+ * @author Osmarcode
+ * @version 1.0
+ */
+
+public class ClasseStringFormat {
+	
+		public static void main(String[] args) {
+			
+			//Declaração de Variáveis 
+			var nome = "Victor";
+			var sobrenome = "Henrique";
+			var idade = 23;
+			var salario = 2.541;
+			
+			// Trazendo com concatenação as variáveis pelo console
+			System.out.println("Nome: " + nome + "\tSobrenome: " + sobrenome + "\tIdade: " + idade + "\tSalário: " + salario);
+			
+			// Utilizando o recurso printf para pode colocar na setença a variável.
+			System.out.printf("\n\nNome %s %s, tem %d anos e ganha R$%f por mês.", nome,sobrenome,idade,salario);
+			
+			// Nesta condição, utilizamos um recurso para controlar o número de casas decimais do tipo float ou double
+			System.out.printf("\n\nOutra Forma: Nome: %s %s, tem %d anos e ganha R$%.3f por mês.", nome,sobrenome,idade,salario);
+
+
+		}
+
+	}
+
